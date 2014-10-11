@@ -9,5 +9,5 @@ If (!(Test-Path $boxstarterScript)) {
 }
 
 Remove-Module Boxstarter.Chocolatey -ErrorAction SilentlyContinue
-Import-Module Boxstarter.Chocolatey -ErrorAction Stop
+Import-Module C:\Users\Admin\AppData\Roaming\Boxstarter\Boxstarter.Chocolatey -ErrorAction Stop
 Install-BoxstarterPackage $boxstarterScript -ErrorAction Stop
