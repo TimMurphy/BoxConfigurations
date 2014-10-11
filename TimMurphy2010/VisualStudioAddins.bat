@@ -1,1 +1,1 @@
-@call Boxstarter.bat VisualStudioAddins.txt
+@call Boxstarter.bat VisualStudioAddins.config

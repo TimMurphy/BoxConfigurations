@@ -1,1 +1,1 @@
-@call Boxstarter.bat Packages.txt
+@call Boxstarter.bat Packages.config

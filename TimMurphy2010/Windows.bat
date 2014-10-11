@@ -1,1 +1,1 @@
-@call Boxstarter.bat Windows.txt
+@call Boxstarter.bat Windows.config

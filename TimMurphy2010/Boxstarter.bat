@@ -3,7 +3,7 @@
 if "%1" == "" (  
   echo.
   echo.
-  echo USAGE: Boxstarter [boxstart script.txt]
+  echo USAGE: Boxstarter [boxstarterScript.config]
   echo.
   echo.
   goto :eof
