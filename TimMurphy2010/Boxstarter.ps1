@@ -8,6 +8,9 @@ If (!(Test-Path $boxstarterScript)) {
     throw "Cannot find boxstarterScript '$boxstarterScript'."
 }
 
+# Full path is required when boxstarter decides to reboot machine
+$boxstarterScript = Resolve-Path $boxstarterScript
+
 Remove-Module Boxstarter.Chocolatey -ErrorAction SilentlyContinue
-Import-Module C:\Users\Admin\AppData\Roaming\Boxstarter\Boxstarter.Chocolatey -ErrorAction Stop
+Import-Module Boxstarter.Chocolatey -ErrorAction Stop
 Install-BoxstarterPackage $boxstarterScript -ErrorAction Stop
