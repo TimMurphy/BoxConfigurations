@@ -1,5 +1,5 @@
 @echo off
-rem Prepares this machine to run configuration scripts.
+rem Prepares any machine to run configuration scripts.
 
 echo Setting powershell execution policy to unrestricted...
 powershell -NoProfile -ExecutionPolicy unrestricted -Command "Set-ExecutionPolicy Unrestricted"
@@ -14,12 +14,14 @@ if not exist C:\ProgramData\chocolatey\nul (
   echo.
 )
 
-echo Installing Boxstarter...
-choco install Boxstarter
-choco install Boxstarter.Azure
-echo Finished installing Boxstarter.
 echo.
+echo Installing Boxstarter...
+"C:\Users\All Users\chocolatey\bin\choco" install Boxstarter
+"C:\Users\All Users\chocolatey\bin\choco" install Boxstarter.Azure
+echo Finished installing Boxstarter.
 
+echo.
+echo Close this command prompt to ensure you are using updated environment variables, e.g. PATH.
 echo.
 echo.
 pause
