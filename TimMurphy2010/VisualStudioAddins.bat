@@ -1,1 +1,0 @@
-@call Boxstarter.bat VisualStudioAddins.config
