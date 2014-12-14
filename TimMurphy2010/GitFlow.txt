@@ -1,0 +1,3 @@
+todo: Automate this on next rebuild.
+
+After Packages are installed do the MSysGit section of https://github.com/nvie/gitflow/wiki/Windows.
