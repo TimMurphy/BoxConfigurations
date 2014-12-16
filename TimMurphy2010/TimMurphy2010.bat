@@ -1,1 +1,0 @@
-@call Boxstarter.bat TimMurphy2010.config

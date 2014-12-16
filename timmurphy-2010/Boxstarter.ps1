@@ -13,4 +13,7 @@ $boxstarterScript = Resolve-Path $boxstarterScript
 
 Remove-Module Boxstarter.Chocolatey -ErrorAction SilentlyContinue
 Import-Module Boxstarter.Chocolatey -ErrorAction Stop
-Install-BoxstarterPackage $boxstarterScript -ErrorAction Stop
+
+$credential = Get-Credential tim@26tp.com
+
+Install-BoxstarterPackage $boxstarterScript -Credential $credential -ErrorAction Stop
