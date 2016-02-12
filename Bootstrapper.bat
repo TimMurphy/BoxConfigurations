@@ -16,8 +16,8 @@ if not exist C:\ProgramData\chocolatey\nul (
 
 echo.
 echo Installing Boxstarter...
-"C:\Users\All Users\chocolatey\bin\choco" install Boxstarter
-"C:\Users\All Users\chocolatey\bin\choco" install Boxstarter.Azure
+cmd /c choco install -y Boxstarter
+cmd /c choco install -y Boxstarter.Azure
 echo Finished installing Boxstarter.
 
 echo.
