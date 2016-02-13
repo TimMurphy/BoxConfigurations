@@ -1,1 +1,0 @@
-@call Boxstarter.bat Windows.config

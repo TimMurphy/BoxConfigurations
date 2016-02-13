@@ -1,1 +1,0 @@
-@call Boxstarter.bat Browsers.config
