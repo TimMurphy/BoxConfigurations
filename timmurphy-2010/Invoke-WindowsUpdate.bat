@@ -1,0 +1,1 @@
+@call %~dp0\Invoke-PowershellCommand .\Invoke-Boxstarter.ps1 .\Invoke-WindowsUpdate.ps1
